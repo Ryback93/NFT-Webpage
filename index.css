@@ -21,7 +21,7 @@ h2{
 }
 
 h3{
-    color: #d0aaff;
+    color: #aab0ff;
     font-size: 20px;
 }
 
@@ -40,15 +40,6 @@ a:hover, a:active{
     color: #d4b44c;
 }
 
-/* 
-Challenge:
-1. Refactor the CSS for these button-style
-   links using two classes on each link
-   element.
-⚠️ Think what to call the new class you
-   will need to create.
-*/
-
 .btn{
     padding: 10px 19px;
     border-radius: 4.6px;
@@ -58,24 +49,24 @@ Challenge:
 }
 
 .btn-dark{
-    background: #5f29a3;
+    background: #3129a3;
     color: whitesmoke
 }
 
 .btn-mid{
     background: #F0E0FF; 
-    color: #5f29a3; 
+    color: #3129a3; 
 }
 
 .btn-light{
     background: whitesmoke;
-    color: #5f29a3; 
+    color: #3129a3; 
 }
 
 .btn:hover, 
 .btn:active{
-    background-color: #f3e885;
-    color: #2b238a;
+    background-color: #ef5839;
+    color: #2b283a;
 }
 
 /* layout */
@@ -85,7 +76,7 @@ header, section, footer{
 }
 
 header, .section-two{
-    background-color: #5f29a3;
+    background-color: #3129a3;
 }
 
 .section-two{
@@ -113,5 +104,5 @@ header, .section-two{
 
 footer{
     text-align: center;
-    color: #5f29a3;
+    color: #3129a3;
 }
